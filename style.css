@@ -25,7 +25,8 @@ h1 {
   font-size: 2.5rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -52,7 +53,8 @@ a:hover {
   color: var(--danger-color);
 }
 
-.main_article, .nav {
+.main_article,
+.nav {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -62,7 +64,7 @@ a:hover {
   display: flex;
 }
 
-.header__link:not(:first-of-type){
+.header__link:not(:first-of-type) {
   margin-left: 24px;
 }
 
@@ -70,7 +72,9 @@ a:hover {
   margin-right: auto;
   text-transform: uppercase;
 }
-.hero, .main__article {
+
+.hero,
+.main__article {
   margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
@@ -111,7 +115,8 @@ a:hover {
 
 .main__p {
   line-height: 1.75;
-  margin-bottom: 48px;;
+  margin-bottom: 48px;
+  ;
 }
 
 .article__img {
